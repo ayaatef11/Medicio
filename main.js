@@ -1,8 +1,9 @@
 
 
-(function() {
+(
+  function() {
   "use strict";
-
+//header and navbar
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
@@ -91,7 +92,7 @@
     this.classList.toggle('bi-x')
   })
 
- 
+
   on('click', '.navbar .dropdown > a', function(e) {
     if (select('#navbar').classList.contains('navbar-mobile')) {
       e.preventDefault()
@@ -207,7 +208,7 @@
   });
 
   /**
-   * Initiate gallery lightbox 
+   * Initiate gallery lightbox
    */
   const galleryLightbox = GLightbox({
     selector: '.gallery-lightbox'
@@ -226,7 +227,7 @@
   });
 
   /**
-   * Initiate Pure Counter 
+   * Initiate Pure Counter
    */
   new PureCounter();
 
