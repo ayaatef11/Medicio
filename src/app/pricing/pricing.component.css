@@ -1,0 +1,6 @@
+/* featured added or removed based on a condition [class.na] */
+.na {
+  color: gray;
+  text-decoration: line-through;
+  opacity: 0.5;
+}
