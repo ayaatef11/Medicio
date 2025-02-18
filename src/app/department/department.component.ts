@@ -1,5 +1,6 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { Department } from '../Models/Department.model';
 
 @Component({
   selector: 'app-department',
@@ -10,9 +11,9 @@ import { Component } from '@angular/core';
 })
 export class DepartmentComponent {
   departments = [
-    { id: 'tab-1', name: 'Cardiology', description: 'Quis excepturi porro totam sint earum quo nulla perspiciatis eius.', active: true },
-    { id: 'tab-2', name: 'Neurology', description: 'Voluptas vel esse repudiandae quo excepturi.', active: false },
-    { id: 'tab-3', name: 'Hepatology', description: 'Velit veniam ipsa sit nihil blanditiis mollitia natus.', active: false },
-    { id: 'tab-4', name: 'Pediatrics', description: 'Ratione hic sapiente nostrum doloremque illum nulla praesentium id', active: false }
+   new Department (  'tab-1',  'Cardiology', 'Quis excepturi porro totam sint earum quo nulla perspiciatis eius.', true ),
+   new Department (  'tab-2',  'Neurology', 'Voluptas vel esse repudiandae quo excepturi.', false ),
+   new Department(  'tab-3',  'Hepatology', 'Velit veniam ipsa sit nihil blanditiis mollitia natus.', false ),
+   new Department(  'tab-4',  'Pediatrics', 'Ratione hic sapiente nostrum doloremque illum nulla praesentium id', false )
   ];
 }
