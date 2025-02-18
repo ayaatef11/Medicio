@@ -20,4 +20,21 @@ export class AppComponent {
       return document.querySelector(el)  as HTMLElement | null;
     }
   }
+
+   on = (type:string, el:string, listener:EventListener, all:boolean = false) => {
+    let selectEl = this.select(el, all)
+    if (selectEl) {
+      if (Array.isArray(selectEl)) {
+        selectEl.forEach(e => e.addEventListener(type, listener))
+      } else {
+        selectEl.addEventListener(type, listener)
+      }
+    }
+  }
+
+
+
+
+
+
 }

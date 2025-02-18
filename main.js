@@ -6,18 +6,7 @@
 
   "use strict";
 //header and navbar
- 
 
-  const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all)
-    if (selectEl) {
-      if (all) {
-        selectEl.forEach(e => e.addEventListener(type, listener))
-      } else {
-        selectEl.addEventListener(type, listener)
-      }
-    }
-  }
 
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -48,6 +37,7 @@
       behavior: 'smooth'
     })
   }
+  
   let selectHeader = select('#header')
   let selectTopbar = select('#topbar')
   if (selectHeader) {
