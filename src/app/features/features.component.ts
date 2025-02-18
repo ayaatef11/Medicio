@@ -1,5 +1,6 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { Socialink } from '../Models/SocialLink.model';
 
 @Component({
   selector: 'app-features',
@@ -9,11 +10,11 @@ import { Component } from '@angular/core';
   styleUrl: './features.component.css'
 })
 export class FeaturesComponent {
-  socialLinks = [
-    { name: 'Twitter', url: '#', icon: 'bx bxl-twitter' },
-    { name: 'Facebook', url: '#', icon: 'bx bxl-facebook' },
-    { name: 'Instagram', url: '#', icon: 'bx bxl-instagram' },
-    { name: 'Skype', url: '#', icon: 'bx bxl-skype' },
-    { name: 'LinkedIn', url: '#', icon: 'bx bxl-linkedin' }
+  socialLinks:Socialink[] = [
+  new Socialink( 'Twitter',  '#',  'bx bxl-twitter' ),
+  new Socialink ( 'Facebook', '#',  'bx bxl-facebook' ),
+    new Socialink ( 'Instagram', '#',  'bx bxl-instagram' ),
+    new Socialink( 'Skype', '#', 'bx bxl-skype' ),
+    new Socialink( 'LinkedIn', '#',  'bx bxl-linkedin' )
   ];
 }
