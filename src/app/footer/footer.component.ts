@@ -1,5 +1,8 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { UsefulLink } from '../Models/usefulLink.model';
+import { OurService } from '../Models/OurService.model';
+import { Socialink } from '../Models/SocialLink.model';
 
 @Component({
   selector: 'app-footer',
@@ -9,26 +12,27 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-  usefulLinks = [
-    { name: 'Home', url: '#' },
-    { name: 'About us', url: '#' },
-    { name: 'Services', url: '#' },
-    { name: 'Terms of service', url: '#' },
-    { name: 'Privacy policy', url: '#' }
+  usefulLinks: UsefulLink[] = [
+    new UsefulLink('Home', '/home'),
+    new UsefulLink('About Us', '/about'),
+    new UsefulLink('Services', '/services'),
+    new UsefulLink('Contact', '/contact')
   ];
 
-  ourServices = [
-    { name: 'Web Design', url: '#' },
-    { name: 'Web Development', url: '#' },
-    { name: 'Product Management', url: '#' },
-    { name: 'Marketing', url: '#' },
-    { name: 'Graphic Design', url: '#' }
+
+
+  ourServices:OurService[] = [
+  new OurService  ('Web Design', '#' ),
+  new OurService ('Web Development',  '#' ),
+    new OurService (  'Product Management',  '#' ),
+      new OurService(  'Marketing',  '#' ),
+      new OurService(  'Graphic Design',  '#' )
   ];
-  socialLinks = [
-    { name: 'Twitter', url: '#', icon: 'bx bxl-twitter' },
-    { name: 'Facebook', url: '#', icon: 'bx bxl-facebook' },
-    { name: 'Instagram', url: '#', icon: 'bx bxl-instagram' },
-    { name: 'Skype', url: '#', icon: 'bx bxl-skype' },
-    { name: 'LinkedIn', url: '#', icon: 'bx bxl-linkedin' }
+  socialLinks:Socialink[] = [
+  new Socialink( 'Twitter',  '#',  'bx bxl-twitter' ),
+  new Socialink ( 'Facebook', '#',  'bx bxl-facebook' ),
+    new Socialink ( 'Instagram', '#',  'bx bxl-instagram' ),
+    new Socialink( 'Skype', '#', 'bx bxl-skype' ),
+    new Socialink( 'LinkedIn', '#',  'bx bxl-linkedin' )
   ];
 }
