@@ -5,7 +5,7 @@
       <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
 
         <div class="social-links mt-3">
-          <a *ngFor="let link of socialLinks" [href]="link.url" [class]="link.icon" [attr.aria-label]="link.name">
+          <a *ngFor="let link of socialLinks" [routerLink]="link.url" [class]="link.icon" [attr.aria-label]="link.name">
             <i [class]="link.icon"></i>
           </a>
         </div>

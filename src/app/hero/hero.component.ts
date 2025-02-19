@@ -1,11 +1,12 @@
 import { NgClass, NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 import { Slide } from '../Models/Slide.model';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [NgFor,NgClass],
+  imports: [RouterLink,NgFor,NgClass],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.css'
 })

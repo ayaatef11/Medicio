@@ -1,4 +1,3 @@
- <!-- ======= Hero Section ======= -->
  <section id="hero">
   <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
@@ -9,7 +8,7 @@
       <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
 
         <div class="carousel-inner">
-          
+
           <div *ngFor="let slide of slides; let isFirst = first"
                class="carousel-item"
                [ngClass]="{'active': isFirst}"
@@ -24,11 +23,11 @@
 
     </div>
 
-    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+    <a class="carousel-control-prev" router="#heroCarousel" role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
     </a>
 
-    <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+    <a class="carousel-control-next" [routerLink]="[]" fragment="heroCarousel" role="button" data-bs-slide="next">
       <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
     </a>
 </div>

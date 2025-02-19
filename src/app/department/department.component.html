@@ -1,21 +1,21 @@
 
-    <!-- ======= Departments Section ======= -->
-    <section id="departments" class="departments">
+    <!-- ======= Deps Section ======= -->
+    <section id="deps" class="deps">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Departments</h2>
+          <h2>Deps</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-4 mb-5 mb-lg-0">
             <ul class="nav nav-tabs flex-column">
-              <li class="nav-item mt-2" *ngFor="let department of departments; let i = index">
-                <a class="nav-link" [class.active]="department.active ? 'active' : '' " [class.show]="department.active"
-                   data-bs-toggle="tab" [attr.data-bs-target]="'#' + department.id">
-                  <h4>{{ department.name }}</h4>
-                  <p>{{ department.description }}</p>
+              <li class="nav-item mt-2" *ngFor="let dep of depsClass; let i = index">
+                <a class="nav-link" [class.active]="dep.active ? 'active' : '' " [class.show]="dep.active"
+                   data-bs-toggle="tab" [attr.data-bs-target]="'#' + dep.id">
+                  <h4>{{ dep.name }}</h4>
+                  <p>{{ dep.description }}</p>
                 </a>
               </li>
             </ul>
@@ -28,29 +28,29 @@
               <div class="tab-pane active show" id="tab-1">
                 <h3>Cardiology</h3>
                 <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                <img src="/img/departments-1.jpg" alt="" class="img-fluid">
+                <img src="/img/deps-1.jpg" alt="" class="img-fluid">
                 <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
               </div>
               <div class="tab-pane" id="tab-2">
                 <h3>Neurology</h3>
                 <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                <img src="/img/departments-2.jpg" alt="" class="img-fluid">
+                <img src="/img/deps-2.jpg" alt="" class="img-fluid">
                 <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
               </div>
               <div class="tab-pane" id="tab-3">
                 <h3>Hepatology</h3>
                 <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                <img src="/img/departments-3.jpg" alt="" class="img-fluid">
+                <img src="/img/deps-3.jpg" alt="" class="img-fluid">
                 <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
               </div>
               <div class="tab-pane" id="tab-4">
                 <h3>Pediatrics</h3>
                 <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                <img src="/img/departments-4.jpg" alt="" class="img-fluid">
+                <img src="/img/deps-4.jpg" alt="" class="img-fluid">
                 <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
               </div>
             </div>
           </div>
         </div>
 
-    </section><!-- End Departments Section -->
+    </section>

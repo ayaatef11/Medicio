@@ -1,3 +1,3 @@
-export class Department{
-constructor(id:string,name:string,description:string){}
+export class DepartmentClass{
+constructor(id:string,name:string,description:string,isTrue:boolean){}
 }

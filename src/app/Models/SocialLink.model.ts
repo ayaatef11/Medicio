@@ -1,4 +1,4 @@
-export class Socialink{
+export class SocialLink{
   constructor(
     name:String,
     url:string,

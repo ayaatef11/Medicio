@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { IconBox } from '../Models/IconBox.model';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-featured-services',
   standalone: true,
-  imports: [],
+  imports: [NgFor],
   templateUrl: './featured-services.component.html',
   styleUrl: './featured-services.component.css'
 })
