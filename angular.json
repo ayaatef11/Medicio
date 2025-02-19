@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Medicio": {
+    "medicio": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -29,12 +29,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -64,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Medicio:build:production"
+              "buildTarget": "medicio:build:production"
             },
             "development": {
-              "buildTarget": "Medicio:build:development"
+              "buildTarget": "medicio:build:development"
             }
           },
           "defaultConfiguration": "development"
