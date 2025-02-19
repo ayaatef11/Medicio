@@ -57,6 +57,7 @@ export class AppComponent implements OnInit {
     this.selectHeader = document.querySelector('#header');
     this.selectTopbar = document.querySelector('#topbar');
     this.headerScrolled(); // التحقق عند تحميل الصفحة
+
   }
 
   @HostListener('window:scroll', [])
@@ -76,20 +77,7 @@ export class AppComponent implements OnInit {
     }
   }
 
-   backToTop = this.select('.back-to-top') as HTMLElement | null;
-
-  if (backToTop) {
-    const toggleBackToTop = (): void => {
-      if (window.scrollY > 100) {
-        backToTop.classList.add('active');
-      } else {
-        backToTop.classList.remove('active');
-      }
-    };
-
-    window.addEventListener('load', toggleBackToTop);
-    document.addEventListener('scroll', toggleBackToTop);
-  }
+ 
 
 
 

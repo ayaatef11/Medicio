@@ -24,4 +24,5 @@ export class HeroComponent {
               'Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.',
               '#about')
   ];
+
 }
