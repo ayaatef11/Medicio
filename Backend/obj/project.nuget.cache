@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "x85LwL/6zVI=",
+  "success": true,
+  "projectFilePath": "F:\\3-Front-end\\2-Medicio\\Backend\\Backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aya Atef\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
+    "C:\\Users\\Aya Atef\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

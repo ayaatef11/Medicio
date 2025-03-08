@@ -3,11 +3,10 @@ import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-header',
-  standalone: true,
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss'],
-  imports: [CommonModule,RouterLink],
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.scss'],
+    imports: [CommonModule, RouterLink]
 })
 export class HeaderComponent implements OnInit {
   navbar!: HTMLElement | null;

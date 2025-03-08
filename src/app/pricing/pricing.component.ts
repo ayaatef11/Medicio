@@ -3,11 +3,10 @@ import { PricingPlan } from '../Models/PricingPlan.model';
 import { NgFor, NgIf } from '@angular/common';
 
 @Component({
-  selector: 'app-pricing',
-  standalone: true,
-  imports: [NgFor,NgIf],
-  templateUrl: './pricing.component.html',
-  styleUrl: './pricing.component.css'
+    selector: 'app-pricing',
+    imports: [NgFor, NgIf],
+    templateUrl: './pricing.component.html',
+    styleUrl: './pricing.component.css'
 })
 export class PricingComponent {
   pricingPlans: PricingPlan[] = [

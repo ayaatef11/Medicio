@@ -2,11 +2,10 @@ import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-frequent-questions',
-  standalone: true,
-  imports: [NgFor],
-  templateUrl: './frequent-questions.component.html',
-  styleUrl: './frequent-questions.component.css'
+    selector: 'app-frequent-questions',
+    imports: [NgFor],
+    templateUrl: './frequent-questions.component.html',
+    styleUrl: './frequent-questions.component.css'
 })
 export class FrequentQuestionsComponent {
   faqs = [

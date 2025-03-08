@@ -4,11 +4,10 @@ import { SocialLink } from '../Models/SocialLink.model';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-features',
-  standalone: true,
-  imports: [RouterLink,NgFor],
-  templateUrl: './features.component.html',
-  styleUrl: './features.component.css'
+    selector: 'app-features',
+    imports: [RouterLink, NgFor],
+    templateUrl: './features.component.html',
+    styleUrl: './features.component.css'
 })
 export class FeaturesComponent {
   socialLinks:SocialLink[] = [

@@ -3,11 +3,10 @@ import { Service } from '../Models/Service.model';
 import { NgFor } from '@angular/common';
 
 @Component({
-  selector: 'app-services',
-  standalone: true,
-  imports: [NgFor],
-  templateUrl: './services.component.html',
-  styleUrl: './services.component.css'
+    selector: 'app-services',
+    imports: [NgFor],
+    templateUrl: './services.component.html',
+    styleUrl: './services.component.css'
 })
 export class ServicesComponent {
   services: Service[] = [

@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 import { Testimonial } from '../Models/Testimonial.model';
 
 @Component({
-  selector: 'app-testimonials',
-  standalone: true,
-  imports: [NgFor],
-  templateUrl: './testimonials.component.html',
-  styleUrl: './testimonials.component.css'
+    selector: 'app-testimonials',
+    imports: [NgFor],
+    templateUrl: './testimonials.component.html',
+    styleUrl: './testimonials.component.css'
 })
 export class TestimonialsComponent {
   testimonials: Testimonial[] = [

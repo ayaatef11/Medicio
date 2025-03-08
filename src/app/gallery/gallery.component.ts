@@ -2,11 +2,10 @@ import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-gallery',
-  standalone: true,
-  imports: [NgFor],
-  templateUrl: './gallery.component.html',
-  styleUrl: './gallery.component.css'
+    selector: 'app-gallery',
+    imports: [NgFor],
+    templateUrl: './gallery.component.html',
+    styleUrl: './gallery.component.css'
 })
 export class GalleryComponent {
   galleryImages = [

@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 import { Doctor } from '../Models/Doctor.model';
 
 @Component({
-  selector: 'app-doctors',
-  standalone: true,
-  imports: [NgFor],
-  templateUrl: './doctors.component.html',
-  styleUrl: './doctors.component.css'
+    selector: 'app-doctors',
+    imports: [NgFor],
+    templateUrl: './doctors.component.html',
+    styleUrl: './doctors.component.css'
 })
 export class DoctorsComponent {
   doctors: Doctor[] = [

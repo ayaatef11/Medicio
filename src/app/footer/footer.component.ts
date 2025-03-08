@@ -5,11 +5,10 @@ import { OurService } from '../Models/OurService.model';
 import { SocialLink } from '../Models/SocialLink.model';
 
 @Component({
-  selector: 'app-footer',
-  standalone: true,
-  imports: [CommonModule],  // Ensure CommonModule is imported
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+    selector: 'app-footer',
+    imports: [CommonModule], // Ensure CommonModule is imported
+    templateUrl: './footer.component.html',
+    styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
   usefulLinks: UsefulLink[] = [

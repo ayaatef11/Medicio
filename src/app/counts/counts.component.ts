@@ -3,11 +3,10 @@ import { CountBox } from '../Models/CountBox.model';
 import { NgFor } from '@angular/common';
 
 @Component({
-  selector: 'app-counts',
-  standalone: true,
-  imports: [NgFor],
-  templateUrl: './counts.component.html',
-  styleUrl: './counts.component.css'
+    selector: 'app-counts',
+    imports: [NgFor],
+    templateUrl: './counts.component.html',
+    styleUrl: './counts.component.css'
 })
 export class CountsComponent {
   countBoxes: CountBox[] = [
