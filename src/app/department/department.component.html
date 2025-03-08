@@ -1,5 +1,4 @@
 
-    <!-- ======= Deps Section ======= -->
     <section id="deps" class="deps">
       <div class="container" data-aos="fade-up">
 
@@ -11,11 +10,11 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-4 mb-5 mb-lg-0">
             <ul class="nav nav-tabs flex-column">
-              <li class="nav-item mt-2" *ngFor="let dep of depsClass; let i = index">
-                <a class="nav-link" [class.active]="dep.active ? 'active' : '' " [class.show]="dep.active"
-                   data-bs-toggle="tab" [attr.data-bs-target]="'#' + dep.id">
-                  <h4>{{ dep.name }}</h4>
-                  <p>{{ dep.description }}</p>
+              <li class="nav-item mt-2" *ngFor="let dept of departments; let i = index">
+                <a class="nav-link" [class.active]="dept.active ? 'active' : '' " [class.show]="dept.active"
+                   data-bs-toggle="tab" [attr.data-bs-target]="'#' + dept.id">
+                  <h4>{{ dept.name }}</h4>
+                  <p>{{ dept.description }}</p>
                 </a>
               </li>
             </ul>

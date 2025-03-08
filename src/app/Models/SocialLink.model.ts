@@ -1,8 +1,8 @@
 export class SocialLink{
   constructor(
-    name:String,
-    url:string,
-    icon:string
+  public  name:String,
+   public  url:string,
+    public icon:string
   ){}
 }
 
