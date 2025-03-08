@@ -2,6 +2,7 @@ import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
+  standalone:true,
     selector: 'app-gallery',
     imports: [NgFor],
     templateUrl: './gallery.component.html',

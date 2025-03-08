@@ -2,6 +2,7 @@ import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
+  standalone:true,
     selector: 'app-frequent-questions',
     imports: [NgFor],
     templateUrl: './frequent-questions.component.html',

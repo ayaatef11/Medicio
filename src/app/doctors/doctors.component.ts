@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 import { Doctor } from '../Models/Doctor.model';
 
 @Component({
-    selector: 'app-doctors',
+  standalone:true,
+  selector: 'app-doctors',
     imports: [NgFor],
     templateUrl: './doctors.component.html',
     styleUrl: './doctors.component.css'

@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 import { Department } from '../Models/Department.model';
 
 @Component({
-    selector: 'app-department',
+  standalone:true,
+  selector: 'app-department',
     imports: [NgFor],
     templateUrl: './department.component.html',
     styleUrl: './department.component.css'

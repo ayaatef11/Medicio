@@ -3,7 +3,8 @@ import { IconBox } from '../Models/IconBox.model';
 import { NgFor } from '@angular/common';
 
 @Component({
-    selector: 'app-featured-services',
+  standalone:true,
+  selector: 'app-featured-services',
     imports: [NgFor],
     templateUrl: './featured-services.component.html',
     styleUrl: './featured-services.component.css'

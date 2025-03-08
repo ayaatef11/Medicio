@@ -4,8 +4,10 @@ import { Slide } from '../Models/Slide.model';
 import { RouterLink } from '@angular/router';
 
 @Component({
+  imports: [ NgFor, NgClass,RouterLink],
+  standalone:true,
     selector: 'app-hero',
-    imports: [RouterLink, NgFor, NgClass],
+
     templateUrl: './hero.component.html',
     styleUrl: './hero.component.css'
 })
