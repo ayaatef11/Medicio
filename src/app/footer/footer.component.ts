@@ -5,6 +5,7 @@ import { OurService } from '../Models/OurService.model';
 import { SocialLink } from '../Models/SocialLink.model';
 
 @Component({
+  standalone:true,
     selector: 'app-footer',
     imports: [CommonModule], // Ensure CommonModule is imported
     templateUrl: './footer.component.html',
