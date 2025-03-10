@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { UsefulLink } from '../Models/usefulLink.model';
-import { OurService } from '../Models/OurService.model';
-import { SocialLink } from '../Models/SocialLink.model';
+import { UsefulLink } from '../../../Models/usefulLink.model';
+import { OurService } from '../../../Models/OurService.model';
+import { SocialLink } from '../../../Models/SocialLink.model';
 
 @Component({
   standalone:true,

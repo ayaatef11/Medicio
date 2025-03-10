@@ -1,6 +1,6 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
-import { Doctor } from '../Models/Doctor.model';
+import { Doctor } from '../../../Models/Doctor.model';
 
 @Component({
   standalone:true,

@@ -1,7 +1,7 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
-import { SocialLink } from '../Models/SocialLink.model';
 import { RouterLink } from '@angular/router';
+import { SocialLink } from '../../Models/SocialLink.model';
 
 @Component({
   standalone:true,

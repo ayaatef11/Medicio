@@ -1,7 +1,8 @@
 import { Component,OnInit,HostListener } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
-import { HeaderComponent } from "./header/header.component";
-import { FooterComponent } from "./footer/footer.component";
+import { FooterComponent } from './Components/Core/footer/footer.component';
+import { HeaderComponent } from './Components/Core/header/header.component';
+
 
 
 @Component({

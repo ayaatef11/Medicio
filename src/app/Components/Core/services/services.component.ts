@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Service } from '../Models/Service.model';
 import { NgFor } from '@angular/common';
+import { Service } from '../../../Models/Service.model';
 
 @Component({
     selector: 'app-services',

@@ -1,7 +1,7 @@
 import { NgClass, NgFor } from '@angular/common';
 import { Component } from '@angular/core';
-import { Slide } from '../Models/Slide.model';
 import { RouterLink } from '@angular/router';
+import { Slide } from '../../Models/Slide.model';
 
 @Component({
   imports: [ NgFor, NgClass,RouterLink],

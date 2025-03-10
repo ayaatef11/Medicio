@@ -1,26 +1,26 @@
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './about/about.component';
-import { AppointmentComponent } from './appointment/appointment.component';
-import { ContactComponent } from './contact/contact.component';
-import { CountsComponent } from './counts/counts.component';
-import { CtaComponent } from './cta/cta.component';
-import { DepartmentComponent } from './department/department.component';
-import { DoctorsComponent } from './doctors/doctors.component';
-import { FeaturedServicesComponent } from './featured-services/featured-services.component';
-import { FeaturesComponent } from './features/features.component';
-import { FooterComponent } from './footer/footer.component';
-import { FrequentQuestionsComponent } from './frequent-questions/frequent-questions.component';
-import { GalleryComponent } from './gallery/gallery.component';
-import { HeaderComponent } from './header/header.component';
-import { HeroComponent } from './hero/hero.component';
-import { PricingComponent } from './pricing/pricing.component';
-import { ServicesComponent } from './services/services.component';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { NgModule } from '@angular/core';
+import { AboutComponent } from './Components/Core/about/about.component';
+import { AppointmentComponent } from './Components/appointment/appointment.component';
+import { ContactComponent } from './Components/Core/contact/contact.component';
+import { CountsComponent } from './Components/counts/counts.component';
+import { DepartmentComponent } from './Components/Core/department/department.component';
+import { CtaComponent } from './Components/cta/cta.component';
+import { DoctorsComponent } from './Components/Core/doctors/doctors.component';
+import { FeaturedServicesComponent } from './Components/featured-services/featured-services.component';
+import { FeaturesComponent } from './Components/features/features.component';
+import { FooterComponent } from './Components/Core/footer/footer.component';
+import { FrequentQuestionsComponent } from './Components/frequent-questions/frequent-questions.component';
+import { GalleryComponent } from './Components/gallery/gallery.component';
+import { HeaderComponent } from './Components/Core/header/header.component';
+import { HeroComponent } from './Components/hero/hero.component';
+import { PricingComponent } from './Components/pricing/pricing.component';
+import { ServicesComponent } from './Components/Core/services/services.component';
+import { TestimonialsComponent } from './Components/testimonials/testimonials.component';
 
 export const routes: Routes = [
 {path:'',component:AboutComponent},
-// {path:'about',component:AboutComponent},
+ {path:'about',component:AboutComponent},
 {path:'appointment',component:AppointmentComponent},
 {path:'contact',component:ContactComponent},
 {path:'counts',component:CountsComponent},

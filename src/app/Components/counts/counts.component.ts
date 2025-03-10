@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { CountBox } from '../Models/CountBox.model';
 import { NgFor } from '@angular/common';
+import { CountBox } from '../../Models/CountBox.model';
 
 @Component({
   standalone:true,

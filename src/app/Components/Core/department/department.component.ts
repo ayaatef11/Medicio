@@ -1,6 +1,6 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
-import { Department } from '../Models/Department.model';
+import { Department } from '../../../Models/Department.model';
 
 @Component({
   standalone:true,

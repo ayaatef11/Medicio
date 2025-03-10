@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { PricingPlan } from '../Models/PricingPlan.model';
 import { NgFor, NgIf } from '@angular/common';
+import { PricingPlan } from '../../Models/PricingPlan.model';
 
 @Component({
     selector: 'app-pricing',

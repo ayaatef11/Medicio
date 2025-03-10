@@ -1,6 +1,6 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
-import { Testimonial } from '../Models/Testimonial.model';
+import { Testimonial } from '../../Models/Testimonial.model';
 
 @Component({
     selector: 'app-testimonials',

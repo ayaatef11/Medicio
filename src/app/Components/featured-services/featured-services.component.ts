@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { IconBox } from '../Models/IconBox.model';
 import { NgFor } from '@angular/common';
+import { IconBox } from '../../Models/IconBox.model';
 
 @Component({
   standalone:true,
