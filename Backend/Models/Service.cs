@@ -6,7 +6,7 @@ public class Service
     public string Icon { get; set; }
     public string Title { get; set; }
     public string Description { get; set; }
-    public int Delay { get; set; }
+    public int Value { get; set; }
     public Service()
     {
 
@@ -17,6 +17,6 @@ public class Service
         Icon = icon;
         Title = title;
         Description = description;
-        Delay = delay;
+        Value = delay;
     }
 }

@@ -3,10 +3,10 @@ namespace Backend.Models;
 public class Testimonial
 {
   public int Id{get;set;}
-    public string Text { get; set; }
-    public string Img { get; set; }
+    public string Quote { get; set; }
+    public string Image { get; set; }
     public string Name { get; set; }
-    public string Role { get; set; }
+    public string Position { get; set; }
      public Testimonial()
      {
 
@@ -14,9 +14,9 @@ public class Testimonial
     public Testimonial(int id,string text, string img, string name, string role)
     {
       Id=id;
-        Text = text;
-        Img = img;
+        Quote = text;
+        Image = img;
         Name = name;
-        Role = role;
+        Position = role;
     }
 }

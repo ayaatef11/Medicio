@@ -22,14 +22,14 @@ namespace Backend.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CountBox>>> GetAll()
         {
-            return await _context.CountBoxes.ToListAsync();
+            return await _context.CountBoxs.ToListAsync();
         }
 
         // GET: api/countbox/1
         [HttpGet("{id}")]
         public async Task<ActionResult<CountBox>> Get(int id)
         {
-            var countBox = await _context.CountBoxes.FindAsync(id);
+            var countBox = await _context.CountBoxs.FindAsync(id);
             if (countBox == null)
                 return NotFound("CountBox not found");
 
@@ -40,7 +40,7 @@ namespace Backend.Controllers
         [HttpPost]
         public async Task<ActionResult> Create([FromBody] CountBox newCountBox)
         {
-            _context.CountBoxes.Add(newCountBox);
+            _context.CountBoxs.Add(newCountBox);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(Get), new { id = newCountBox.Id }, newCountBox);
@@ -63,11 +63,11 @@ namespace Backend.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
-            var countBox = await _context.CountBoxes.FindAsync(id);
+            var countBox = await _context.CountBoxs.FindAsync(id);
             if (countBox == null)
                 return NotFound("CountBox not found");
 
-            _context.CountBoxes.Remove(countBox);
+            _context.CountBoxs.Remove(countBox);
             await _context.SaveChangesAsync();
 
             return NoContent();

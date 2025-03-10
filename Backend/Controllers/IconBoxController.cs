@@ -22,7 +22,7 @@ namespace Backend.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<IconBox>>> GetIconBoxes()
         {
-            var iconBoxes = await _context.IconBoxes.ToListAsync();
+            var iconBoxes = await _context.IconBoxs.ToListAsync();
             return Ok(iconBoxes);
         }
 
@@ -30,7 +30,7 @@ namespace Backend.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<IconBox>> GetIconBox(int id)
         {
-            var iconBox = await _context.IconBoxes.FindAsync(id);
+            var iconBox = await _context.IconBoxs.FindAsync(id);
 
             if (iconBox == null)
                 return NotFound("IconBox not found");
@@ -42,7 +42,7 @@ namespace Backend.Controllers
         [HttpPost]
         public async Task<ActionResult> CreateIconBox([FromBody] IconBox newIconBox)
         {
-            _context.IconBoxes.Add(newIconBox);
+            _context.IconBoxs.Add(newIconBox);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetIconBox), new { id = newIconBox.Id }, newIconBox);
@@ -65,11 +65,11 @@ namespace Backend.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteIconBox(int id)
         {
-            var iconBox = await _context.IconBoxes.FindAsync(id);
+            var iconBox = await _context.IconBoxs.FindAsync(id);
             if (iconBox == null)
                 return NotFound("IconBox not found");
 
-            _context.IconBoxes.Remove(iconBox);
+            _context.IconBoxs.Remove(iconBox);
             await _context.SaveChangesAsync();
 
             return NoContent();

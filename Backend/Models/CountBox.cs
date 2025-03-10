@@ -1,6 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Backend.Models;
 public class CountBox
 {
+
   public int Id{get;set;}
     public string Icon { get; set; }
     public int Count { get; set; }

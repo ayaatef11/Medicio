@@ -5,7 +5,7 @@ public class Doctor
 {
   public int Id{get;set;}
     public required string Name { get; set; }
-    public required string Specialty { get; set; }
+    public required string Specialization { get; set; }
     public required string Image { get; set; }
     public List<SocialLink> Socials { get; set; }
      public Doctor()
@@ -16,7 +16,7 @@ public class Doctor
     {
       Id=id;
         Name = name;
-        Specialty = specialty;
+        Specialization = specialty;
         Image = image;
         Socials = socials ?? new List<SocialLink>();
     }

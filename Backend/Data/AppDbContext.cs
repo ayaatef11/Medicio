@@ -9,10 +9,10 @@ public class AppDbContext:DbContext{
   {
 
   }
-  public DbSet<CountBox>CountBoxes{get;set;}
+  public DbSet<CountBox>CountBoxs{get;set;}
   public DbSet<Department>Departments{get;set;}
   public DbSet<Doctor>Doctors{get;set;}
-  public DbSet<IconBox>IconBoxes{get;set;}
+  public DbSet<IconBox>IconBoxs{get;set;}
   public DbSet<OurService>OurServices{get;set;}
   public DbSet<PricingPlan>PricingPlans{get;set;}
   public DbSet<Service>Services{get;set;}
@@ -24,7 +24,7 @@ public class AppDbContext:DbContext{
   {
 
     base.OnModelCreating(modelBuilder);
-    modelBuilder.SeedData("F:/5-Full-stack/2-Medicio/Backend/Data/DataSeeding");
+    // modelBuilder.SeedData();
   }
 }
 
