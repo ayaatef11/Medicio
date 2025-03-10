@@ -1,5 +1,5 @@
 ## Medicio 🏥
-Medicio is a modern, fully responsive healthcare web application designed for managing medical services, displaying doctors, and booking appointments. Built with the latest technologies, it provides a seamless user experience with a clean and professional design.
+Medicio is a modern, responsive healthcare web application designed for managing medical services, displaying doctors, and booking appointments. Built with .NET & Angular , it provides a seamless user experience with a clean architecture.
 
 ## 🚀 Features
 - 🏥 Doctors & Departments – Browse medical professionals and hospital departments.
