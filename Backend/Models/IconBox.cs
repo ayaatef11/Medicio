@@ -1,13 +1,20 @@
+namespace Backend.Models;
+
 public class IconBox
 {
+  public int Id{get;set;}
     public string Icon { get; set; }
     public string Title { get; set; }
     public string Description { get; set; }
     public int Delay { get; set; }
 
-    // Constructor
-    public IconBox(string icon, string title, string description, int delay)
+    public IconBox()
     {
+
+    }
+    public IconBox(int id,string icon, string title, string description, int delay)
+    {
+      Id=id;
         Icon = icon;
         Title = title;
         Description = description;

@@ -1,3 +1,5 @@
+namespace Backend.Models;
+
 public class Department
 {
     public string Id { get; set; }
@@ -5,7 +7,10 @@ public class Department
     public string Description { get; set; }
     public bool Active { get; set; }
 
-    // Constructor
+public Department()
+{
+
+}
     public Department(string id, string name, string description, bool active)
     {
         Id = id;

@@ -1,31 +1,39 @@
+namespace Backend.Models;
+
 public class PricingPlan
 {
+  public int Id{get;set;}
     public string Name { get; set; }
     public decimal Price { get; set; }
     public List<Feature> Features { get; set; }
     public bool IsFeatured { get; set; }
     public bool IsAdvanced { get; set; }
-
-    // Constructor
-    public PricingPlan(string name, decimal price, List<Feature> features, bool isFeatured = false, bool isAdvanced = false)
+    public PricingPlan()
     {
+
+    }
+    public PricingPlan(int id,string name, decimal price, List<Feature> features, bool isFeatured = false, bool isAdvanced = false)
+    {
+      Id=id;
         Name = name;
         Price = price;
-        Features = features ?? new List<Feature>(); // Ensuring it's not null
+        Features = features ?? new List<Feature>();
         IsFeatured = isFeatured;
         IsAdvanced = isAdvanced;
     }
 }
 
-// Nested Feature class
 public class Feature
 {
+   public int Id{get;set;}
     public string Text { get; set; }
     public bool Available { get; set; }
-
-    // Constructor
-    public Feature(string text, bool available)
+    Feature(){
+      
+    }
+    public Feature(int id,string text, bool available)
     {
+      Id=id;
         Text = text;
         Available = available;
     }

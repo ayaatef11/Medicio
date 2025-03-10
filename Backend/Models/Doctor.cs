@@ -1,15 +1,20 @@
 using System.Collections.Generic;
+namespace Backend.Models;
 
 public class Doctor
 {
+  public int Id{get;set;}
     public string Name { get; set; }
     public string Specialty { get; set; }
     public string Image { get; set; }
     public List<SocialLink> Socials { get; set; }
+     public Doctor()
+     {
 
-    // Constructor
-    public Doctor(string name, string specialty, string image, List<SocialLink> socials)
+     }
+    public Doctor(int id,string name, string specialty, string image, List<SocialLink> socials)
     {
+      Id=id;
         Name = name;
         Specialty = specialty;
         Image = image;
