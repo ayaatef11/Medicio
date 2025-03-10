@@ -1,0 +1,12 @@
+ <section id="hero">
+          <div *ngFor="let slide of slides; let isFirst = first"  class="carousel-item"
+               [ngClass]="{'active': isFirst}"   [style.background-image]="'url(' + slide.image + ')'">
+            <div class="container">
+              <h2 [innerHTML]="slide.title"></h2>
+              <p>{{ slide.description }}</p>
+              <a routerLink="/about" class="btn-get-started scrollto">Read More</a>
+            </div>
+          </div>
+</section>
+<app-gallery></app-gallery>
+

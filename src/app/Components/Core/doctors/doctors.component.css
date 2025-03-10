@@ -1,7 +1,4 @@
 
-/*--------------------------------------------------------------
-# Doctors
---------------------------------------------------------------*/
 .doctors .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -44,7 +41,7 @@
 }
 
 .doctors .member .social a:hover {
-  color: #3fbbc0;
+  color: #5e6cca;
 }
 
 .doctors .member .social i {

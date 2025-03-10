@@ -1,15 +1,17 @@
-import { NgFor } from '@angular/common';
-import { Component } from '@angular/core';
+import { CommonModule, NgFor } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
 import { Doctor } from '../../../Models/Doctor.model';
-
+import { CtaComponent } from '../../cta/cta.component';
+// import AOS from '../../../../assets/vendor/aos/aos.js';
 @Component({
-  standalone:true,
+
   selector: 'app-doctors',
-    imports: [NgFor],
+  standalone:true,
+    imports: [NgFor,CommonModule,CtaComponent],//ngfor needs common module to work but in modular way
     templateUrl: './doctors.component.html',
-    styleUrl: './doctors.component.css'
+    styleUrls: ['./doctors.component.css']
 })
-export class DoctorsComponent {
+export class DoctorsComponent implements OnInit {
   doctors: Doctor[] = [
     new Doctor("Walter White", "Chief Medical Officer", "/img/doctors/doctors-1.jpg", [
       { icon: "bi bi-twitter", url: "#" },
@@ -24,4 +26,14 @@ export class DoctorsComponent {
       { icon: "bi bi-linkedin", url: "#" }
     ])
   ];
+  // /**
+  //  *
+  //  */
+  // constructor() {
+  //  this.doctors;
+
+  // }
+ngOnInit(): void {
+    // AOS.init
+}
 }

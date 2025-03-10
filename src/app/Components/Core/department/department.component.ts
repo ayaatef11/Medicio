@@ -1,11 +1,12 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 import { Department } from '../../../Models/Department.model';
+import { FrequentQuestionsComponent } from '../../frequent-questions/frequent-questions.component';
 
 @Component({
   standalone:true,
   selector: 'app-department',
-    imports: [NgFor],
+    imports: [NgFor,FrequentQuestionsComponent],
     templateUrl: './department.component.html',
     styleUrl: './department.component.css'
 })

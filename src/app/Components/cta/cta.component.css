@@ -1,10 +1,6 @@
 
-
-/*--------------------------------------------------------------
-# Cta
---------------------------------------------------------------*/
 .cta {
-  background: #3fbbc0;
+  background: #5e6cca;
   color: #fff;
   background-size: cover;
   padding: 60px 0;
@@ -31,5 +27,5 @@
 
 .cta .cta-btn:hover {
   background: #fff;
-  color: #3fbbc0;
+  color: #5e6cca;
 }

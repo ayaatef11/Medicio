@@ -1,8 +1,5 @@
 
 
-/*--------------------------------------------------------------
-# Featured Services
---------------------------------------------------------------*/
 .featured-services .icon-box {
   padding: 30px;
   position: relative;
@@ -27,7 +24,7 @@
 }
 
 .featured-services .icon-box:hover::before {
-  background: #3fbbc0;
+  background: #5e6cca;
   top: 0;
   border-radius: 0px;
 }
@@ -39,7 +36,7 @@
 .featured-services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #3fbbc0;
+  color: #5e6cca;
   transition: all 0.3s ease-in-out;
 }
 

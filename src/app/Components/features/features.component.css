@@ -1,8 +1,5 @@
 
 
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
 .features .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
@@ -12,7 +9,7 @@
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #3fbbc0;
+  color: #5e6cca;
 }
 
 .features .icon-box p {

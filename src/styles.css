@@ -5,12 +5,12 @@ body {
 }
 
 a {
-  color: #3fbbc0;
+  color: #5e6cca;
   text-decoration: none;
 }
 
 a:hover {
-  color: #65c9cd;
+  color: #5e6cca;
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #3fbbc0;
+  border: 6px solid #5e6cca;
   border-top-color: #ecf8f9;
   border-radius: 50%;
   width: 60px;
@@ -64,7 +64,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #3fbbc0;
+  background: #5e6cca;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -78,7 +78,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #5ec6ca;
+  background: #5e6cca;
   color: #fff;
 }
 
@@ -123,7 +123,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #3fbbc0;
+  background: #3f4ec0;
   bottom: 0;
   left: calc(50% - 25px);
 }

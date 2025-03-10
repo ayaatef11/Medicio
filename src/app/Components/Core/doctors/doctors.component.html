@@ -1,28 +1,47 @@
-  <section id="doctors" class="doctors section-bg">
-    <div class="container" data-aos="fade-up">
+<section id="doctors" class="doctors section-bg">
+  <div class="container" >
+    <div class="section-title">
+      <h2>Doctors</h2>
+      <p>
+        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+        Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+        Quia fugiat sit in iste officiis commodi quidem hic quas.
+      </p>
+    </div>
 
-      <div class="section-title">
-        <h2>Doctors</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div>
+    <div class="row">
+      <div
+        class="col-lg-3 col-md-6 d-flex align-items-stretch"
+        *ngFor="let doctor of doctors; let i = index"
 
-      <div class="row">
+      >
+        <div class="member" >
+          <div class="member-img">
+            <img
+              [src]="doctor.image"
+              class="img-fluid"
+              [alt]="doctor.name"
+            >
 
-        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" *ngFor="let doctor of doctors; let i = index" [attr.data-aos-delay]="(i + 1) * 100">
-          <div class="member" data-aos="fade-up">
-            <div class="member-img">
-              <img [src]="doctor.image" class="img-fluid" [alt]="doctor.name">
-              <div class="social">
-                <a *ngFor="let social of doctor.socials" [href]="social.url"><i [class]="social.icon"></i></a>
-              </div>
+            <div class="social">
+              <a
+                *ngFor="let social of doctor.socials"
+                [href]="social.url"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i [class]="social.icon"></i>
+              </a>
             </div>
-            <div class="member-info">
-              <h4>{{ doctor.name }}</h4>
-              <span>{{ doctor.specialty }}</span>
-            </div>
+          </div>
+
+          <div class="member-info">
+            <h4>{{ doctor.name }}</h4>
+            <span>{{ doctor.specialty }}</span>
           </div>
         </div>
       </div>
-
     </div>
-  </section>
+  </div>
+</section>
+<app-cta></app-cta>

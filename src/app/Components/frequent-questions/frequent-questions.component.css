@@ -20,7 +20,7 @@
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #3fbbc0;
+  font-family: #5e6cca;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -51,7 +51,7 @@
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #3fbbc0;
+  color: #5e6cca;
 }
 
 .faq .faq-list .collapsed .icon-show {

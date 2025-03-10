@@ -1,7 +1,4 @@
 
-/*--------------------------------------------------------------
-# Appointments
---------------------------------------------------------------*/
 .appointment .php-email-form {
   width: 100%;
 }
@@ -71,7 +68,7 @@
 .appointment .php-email-form input:focus,
 .appointment .php-email-form textarea:focus,
 .appointment .php-email-form select:focus {
-  border-color: #3fbbc0;
+  border-color: #5e6cca;
 }
 
 .appointment .php-email-form input,
@@ -84,7 +81,7 @@
 }
 
 .appointment .php-email-form button[type=submit] {
-  background: #3fbbc0;
+  background: #5e6cca;
   border: 0;
   padding: 10px 35px;
   color: #fff;

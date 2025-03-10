@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
 import { Service } from '../../../Models/Service.model';
+import { FeaturedServicesComponent } from "../../featured-services/featured-services.component";
+import { FeaturesComponent } from "../../features/features.component";
+import { PricingComponent } from "../../pricing/pricing.component";
 
 @Component({
     selector: 'app-services',
-    imports: [NgFor],
+    imports: [NgFor, FeaturedServicesComponent, FeaturesComponent, PricingComponent],
     templateUrl: './services.component.html',
     styleUrl: './services.component.css'
 })

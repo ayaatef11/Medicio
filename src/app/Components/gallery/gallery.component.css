@@ -14,11 +14,11 @@
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #3fbbc0;
+  border: 1px solid #5e6cca;
 }
 
 .gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #3fbbc0;
+  background-color: #5e6cca;
 }
 
 .gallery .swiper-slide-active {
@@ -31,7 +31,7 @@
   }
 
   .gallery .swiper-slide-active {
-    border: 6px solid #3fbbc0;
+    border: 6px solid #5e6cca;
     padding: 4px;
     background: #fff;
     z-index: 1;

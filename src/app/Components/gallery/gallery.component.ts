@@ -1,5 +1,6 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { HeroComponent } from "../Core/home/hero.component";
 
 @Component({
   standalone:true,

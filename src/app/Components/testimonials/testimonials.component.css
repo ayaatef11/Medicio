@@ -1,9 +1,5 @@
 
 
-
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -76,9 +72,9 @@
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #3fbbc0;
+  border: 1px solid #5e6cca;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #3fbbc0;
+  background-color: #5e6cca;
 }

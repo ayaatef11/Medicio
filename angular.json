@@ -27,11 +27,10 @@
               }
             ],
             "styles": [
-"src/assets/vendor/bootstrap/css/bootstrap.min.css",
-  "src/assets/vendor/animate.css/animate.min.css",
-  "src/assets/vendor/aos/aos.css",
-  "src/assets/vendor/fontawesome-free/css/all.min.css",
+  "src/assets/vendor/bootstrap/css/bootstrap.min.css",
   "src/assets/vendor/bootstrap-icons/bootstrap-icons.css",
+  "src/assets/vendor/animate.css/animate.min.css",
+  "src/assets/vendor/fontawesome-free/css/all.min.css",
   "src/assets/vendor/boxicons/css/boxicons.min.css",
   "src/assets/vendor/glightbox/css/glightbox.min.css",
   "src/assets/vendor/swiper/swiper-bundle.min.css",
@@ -39,9 +38,8 @@
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "src/assets/vendor/aos/aos.js",
- "src/assets/vendor/swiper/swiper-bundle.min.js",
- "src/assets/vendor/glightbox/js/glightbox.min.js"
+              "src/assets/vendor/swiper/swiper-bundle.min.js",
+              "src/assets/vendor/glightbox/js/glightbox.min.js"
 
             ]
           },

@@ -1,6 +1,5 @@
- <!-- ======= Pricing Section ======= -->
  <section id="pricing" class="pricing">
-  <div class="container" data-aos="fade-up">
+  <div class="container" >
 
     <div class="section-title">
       <h2>Pricing</h2>
@@ -9,7 +8,7 @@
 
     <div class="row">
       <div class="col-lg-3 col-md-6" *ngFor="let plan of pricingPlans; let i = index">
-        <div class="box" [class.featured]="plan.isFeatured" data-aos="fade-up" [attr.data-aos-delay]="(i+1) * 100">
+        <div class="box" [class.featured]="plan.isFeatured" >
           <span *ngIf="plan.isAdvanced" class="advanced">Advanced</span>
           <h3>{{ plan.name }}</h3>
           <h4><sup>$</sup>{{ plan.price }}<span> / month</span></h4>
@@ -19,14 +18,10 @@
             </li>
           </ul>
           <div class="btn-wrap">
-            <a href="#" class="btn-buy">Buy Now</a>
+            <button class="btn-buy">Buy Now</button>
           </div>
         </div>
       </div>
-
-
-    </div>
-
+      </div>
   </div>
 </section>
-<!-- End Pricing Section -->
