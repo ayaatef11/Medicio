@@ -9,16 +9,17 @@ Medicio is a modern, fully responsive healthcare web application designed for ma
 - 🌍 Responsive Design – Fully optimized for all screen sizes.
 
 ## 🛠️ Technologies Used
+- Backend (.NET Core & Entity Framework Core)
+- ASP.NET Core Web API – Backend API for handling requests.
+- Entity Framework Core – ORM for database management.
+- SQL Server – Relational database for storing data.
 - Frontend (Angular 19)
 - TypeScript – Core language for Angular development.
 - Angular Router – Handles navigation between pages.
 - Bootstrap & SCSS – For styling and responsive design.
 - Ngx-Spinner – Loading animations for a better UX.
 - Ngx-Toastr – Notifications and alert messages.
-- Backend (.NET Core & Entity Framework Core)
-- ASP.NET Core Web API – Backend API for handling requests.
-- Entity Framework Core – ORM for database management.
-- SQL Server – Relational database for storing data.
+
 ## 📦 Project Structure
 
 ```
