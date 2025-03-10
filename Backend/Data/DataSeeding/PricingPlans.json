@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Free",
+    "price": 0,
+    "features": [
+      { "text": "Aida dere", "available": true },
+      { "text": "Nec feugiat nisl", "available": true },
+      { "text": "Nulla at volutpat dola", "available": true },
+      { "text": "Pharetra massa", "available": false },
+      { "text": "Massa ultricies mi", "available": false }
+    ]
+  },
+  {
+    "name": "Business",
+    "price": 19,
+    "features": [
+      { "text": "Aida dere", "available": true },
+      { "text": "Nec feugiat nisl", "available": true },
+      { "text": "Nulla at volutpat dola", "available": true },
+      { "text": "Pharetra massa", "available": true },
+      { "text": "Massa ultricies mi", "available": false }
+    ],
+    "featured": true
+  },
+  {
+    "name": "Developer",
+    "price": 29,
+    "features": [
+      { "text": "Aida dere", "available": true },
+      { "text": "Nec feugiat nisl", "available": true },
+      { "text": "Nulla at volutpat dola", "available": true },
+      { "text": "Pharetra massa", "available": true },
+      { "text": "Massa ultricies mi", "available": true }
+    ]
+  },
+  {
+    "name": "Ultimate",
+    "price": 49,
+    "features": [
+      { "text": "Aida dere", "available": true },
+      { "text": "Nec feugiat nisl", "available": true },
+      { "text": "Nulla at volutpat dola", "available": true },
+      { "text": "Pharetra massa", "available": true },
+      { "text": "Massa ultricies mi", "available": true }
+    ],
+    "advanced": true
+  }
+]

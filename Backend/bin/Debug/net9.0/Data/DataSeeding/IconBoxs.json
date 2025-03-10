@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "fas fa-heartbeat",
+    "title": "Lorem Ipsum",
+    "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi",
+    "value": 100
+  },
+  {
+    "icon": "fas fa-pills",
+    "title": "Sed ut perspiciatis",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+    "value": 200
+  },
+  {
+    "icon": "fas fa-thermometer",
+    "title": "Magni Dolores",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia",
+    "value": 300
+  },
+  {
+    "icon": "fas fa-dna",
+    "title": "Nemo Enim",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis",
+    "value": 400
+  }
+]

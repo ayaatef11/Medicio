@@ -24,6 +24,7 @@ public class AppDbContext:DbContext{
   {
 
     base.OnModelCreating(modelBuilder);
+    modelBuilder.SeedData("F:/5-Full-stack/2-Medicio/Backend/Data/DataSeeding");
   }
 }
 

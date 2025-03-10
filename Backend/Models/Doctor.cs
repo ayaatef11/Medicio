@@ -4,9 +4,9 @@ namespace Backend.Models;
 public class Doctor
 {
   public int Id{get;set;}
-    public string Name { get; set; }
-    public string Specialty { get; set; }
-    public string Image { get; set; }
+    public required string Name { get; set; }
+    public required string Specialty { get; set; }
+    public required string Image { get; set; }
     public List<SocialLink> Socials { get; set; }
      public Doctor()
      {
