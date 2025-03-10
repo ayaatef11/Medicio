@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\3-Front-end\\2-Medicio\\Backend\\Backend.csproj": {}
+    "F:\\5-Full-stack\\2-Medicio\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "F:\\3-Front-end\\2-Medicio\\Backend\\Backend.csproj": {
+    "F:\\5-Full-stack\\2-Medicio\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\3-Front-end\\2-Medicio\\Backend\\Backend.csproj",
+        "projectUniqueName": "F:\\5-Full-stack\\2-Medicio\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "F:\\3-Front-end\\2-Medicio\\Backend\\Backend.csproj",
+        "projectPath": "F:\\5-Full-stack\\2-Medicio\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\Aya Atef\\.nuget\\packages\\",
-        "outputPath": "F:\\3-Front-end\\2-Medicio\\Backend\\obj\\",
+        "outputPath": "F:\\5-Full-stack\\2-Medicio\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -55,6 +55,12 @@
               "version": "[9.0.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.2, )"
             }
