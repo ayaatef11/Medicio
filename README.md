@@ -23,15 +23,26 @@ Medicio is a modern, fully responsive healthcare web application designed for ma
 ## 📦 Project Structure
 
 ```
-/src
+/Backend
+|__Controllers
+|__Models
+|__Data
+|    |__seeding
+|__Migrations
+|__Configurations
+
+/Frontend
+|__public
+|       |__images
+|src
  ├── app
  │   ├── components (UI Components)
- │   ├── core (Core Functionalities)
- │   ├── services (API Services)
+ │   |       ├── core (Core Functionalities)
+ │   |
  │   ├── models (Data Models)
  │   ├── routes (Routing Configuration)
  ├── assets (Static Files)
- ├── environments (Configurations)
+ 
 ```
 
 ## 📌 Design Patterns & Best Practices
@@ -60,13 +71,13 @@ Frontend
 Backend
 `dotnet run`
 ## 📜 API Endpoints
-Endpoint	Method	Description
-/api/doctors	GET	Fetch all doctors
-/api/appointments	GET	Create a new appointment
-/api/departments
-/api/services
-/api/pricing
-/api/testmoinals
+# Endpoint	Method	Description
+- /api/doctors	GET	Fetch all doctors
+- /api/appointments	GET	Create a new appointment
+- /api/departments
+- /api/services
+- /api/pricing
+- /api/testmoinals
 ## 👨‍💻 Contributing
 Contributions are welcome! If you find any issues, feel free to submit a PR or open an issue.
 
