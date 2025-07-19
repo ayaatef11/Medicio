@@ -1,5 +1,5 @@
 ## Medicio 🏥
-Medicio is a modern, responsive healthcare web application designed for managing medical services, displaying doctors, and booking appointments. Built with .NET & Angular , it provides a seamless user experience with a clean architecture.
+Medicio is a modern, responsive healthcare web application designed for managing medical services, displaying doctors, and booking appointments. Built with Angular , it provides a seamless user experience with a clean architecture.
 
 ## 🚀 Features
 - 🏥 Doctors & Departments – Browse medical professionals and hospital departments.
@@ -9,11 +9,7 @@ Medicio is a modern, responsive healthcare web application designed for managing
 - 🌍 Responsive Design – Fully optimized for all screen sizes.
 
 ## 🛠️ Technologies Used
-- Backend (.NET Core & Entity Framework Core)
-- ASP.NET Core Web API – Backend API for handling requests.
-- Entity Framework Core – ORM for database management.
-- SQL Server – Relational database for storing data.
-- Frontend (Angular 19)
+- Angular 19
 - TypeScript – Core language for Angular development.
 - Angular Router – Handles navigation between pages.
 - Bootstrap & SCSS – For styling and responsive design.
@@ -23,14 +19,6 @@ Medicio is a modern, responsive healthcare web application designed for managing
 ## 📦 Project Structure
 
 ```
-/Backend
-|__Controllers
-|__Models
-|__Data
-|    |__seeding
-|__Migrations
-|__Configurations
-
 /Frontend
 |__public
 |       |__images
@@ -56,28 +44,15 @@ git clone https://github.com/ayaatef11/Medicio.git
 cd Medicio
 ```
 - 2️⃣ Install Dependencies
-For the frontend:
 ```
 npm install
 ```
-For the backend:
-`dotnet restore `
 - 3️⃣ Configure Environment Variables
 Update the API URL in environment.ts and appsettings.json with the correct backend URL.
 
 - 4️⃣ Run the Application
-Frontend
 `ng serve --open`
-Backend
-`dotnet run`
-## 📜 API Endpoints
-# Endpoint	Method	Description
-- /api/doctors	GET	Fetch all doctors
-- /api/appointments	GET	Create a new appointment
-- /api/departments
-- /api/services
-- /api/pricing
-- /api/testmoinals
+
 ## 👨‍💻 Contributing
 Contributions are welcome! If you find any issues, feel free to submit a PR or open an issue.
 
