@@ -1,5 +1,4 @@
-
- <footer id="footer">
+<footer id="footer">
   <div class="footer-top">
     <div class="container">
       <div class="row">
@@ -12,28 +11,9 @@
               <strong>Phone:</strong> +1 5589 55488 55<br>
               <strong>Email:</strong> info.example.com<br>
             </p>
-            <div class="social-links mt-3">
-              <a *ngFor="let link of socialLinks" [href]="link.url" [class]="link.icon" [attr.aria-label]="link.name">
-                <i [class]="link.icon"></i>
-              </a>
-            </div>
-
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li *ngFor="let link of usefulLinks">
-              <i class="bx bx-chevron-right"></i> <a routerLink=link.url>{{ link.name }}</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-6 footer-links">
-
-
-        </div>
 
         <div class="col-lg-4 col-md-6 footer-newsletter">
           <h4>Our Newsletter</h4>
